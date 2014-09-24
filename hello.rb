@@ -1,3 +1,3 @@
 ##################
-puts "hello world!"
-puts "hola mundo"
+name = ARGV.shift
+puts "hello #{name}!"
